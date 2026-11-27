@@ -1,4 +1,4 @@
 {
   "name": "Education Box (Without Desktop)",
-  "postCreateCommand": "bash -i setup.sh"
+  "postCreateCommand": "chmod +x setup.sh &&  bash -i setup.sh"
 }
