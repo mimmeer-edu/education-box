@@ -1,4 +1,5 @@
 {
   "name": "Education Box",
+  "image": "://microsoft.com",
   "postCreateCommand": "chmod +x setup.sh && bash -i setup.sh"
 }
