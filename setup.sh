@@ -1,4 +1,5 @@
 #!/bin/bash
 
+set -e
 chmod +x ./setup/*
-./setup/main.sh
+bash ./setup/main.sh
