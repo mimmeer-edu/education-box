@@ -1,5 +1,23 @@
 {
+	"build": {
+		"dockerfile": "./Dockerfile",
+		"context": "."
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"upgradePackages": "true"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": "false"
+        }
+	},
   "name": "Education Box (Desktop-less)",
   "image": "://microsoft.com",
-  "postCreateCommand": "chmod +x setup.sh && bash setup.sh"
+  "postCreateCommand": "chmod +x setup.sh && bash setup.sh",
+  "remoteUser": "vscode"
 }
