@@ -1,4 +1,4 @@
 {
-  "name": "Education Box",
+  "name": "Education Box (Without Desktop)",
   "postCreateCommand": "bash -i setup.sh"
 }
