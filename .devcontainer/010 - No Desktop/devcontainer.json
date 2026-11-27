@@ -17,7 +17,6 @@
         }
 	},
   "name": "Education Box (Desktop-less)",
-  "image": "://microsoft.com",
   "postCreateCommand": "chmod +x setup.sh && bash setup.sh",
   "remoteUser": "vscode"
 }
